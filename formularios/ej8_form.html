@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        input{
+           
+            margin-bottom: 20px;
+        }
+        #confirmacion{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password">
+        <label for="tipoVia">Tipo de vía:</label>
+        <select name="tipoVia" id="tipoVia" >
+            <option value="calle">calle</option>
+            <option value="avenida">avenida</option>
+            <option value="paseo">paseo</option>
+        </select>
+        <label for="nombreVia">Nombre de la vía:</label>
+        <input type="nombreVia">
+        <label for="num">Número:</label>
+        <input type="number" id="num" name="num">
+        <label for="cp">Código postal:</label>
+        <input type="text" name="cp" id="cp">
+        <label>Turno:</label>
+        <input type="radio" name="turno" id="manana" value="manana">
+        <label for="manana">Mañana</label>
+        <input type="radio" name="turno" id="tarde" value="tarde">
+        <label for="tarde">Tarde</label>
+        <input type="radio" name="turno" id="noche" value="noche">
+        <label for="Noche">Noche</label>
+
+        <input type="checkbox" id="confirmacion" name="confirmacion" value="confirmacion">
+        <label for="confirmacion">Confirmo que todos los datos son reales.</label>
+
+
+    </form>
+</body>
+</html>
