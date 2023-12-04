@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<style>
+   
+    body {
+            font-family: Arial, sans-serif;
+            margin: auto;
+            width: 60vw;
+        }
+
+        .contenedor-bloque {
+            width: 400px;
+            margin:auto;
+    
+        }
+
+        .contenedor-linea {
+            width: 300px;
+            margin:auto;
+            margin-top:30px;
+        }
+
+        .elemento-bloque {
+            width: 300px;
+            height: 200px;
+            border: 2px solid #ff8000;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .elemento-linea {
+            border: 2px solid #ff8000;
+            padding: 5px;
+            margin-right: 10px;
+            text-decoration: none;
+            background-color: #f3f08d;
+            color:#ff8000;
+        }
+        img{
+        width: 300px;
+        height: 200px;
+        
+    }
+</style>
+<body>
+    
+    <main>
+            <div class="contenedor-bloque">
+                <div class="elemento-bloque">
+                    <img src="https://3.bp.blogspot.com/-gI_RgGRZyo4/WCXrphysYYI/AAAAAAAAHBI/ofeqm6I9xTQg1BVS08Ayk7oRLEx564sXACLcB/w1200-h630-p-k-no-nu/Tardor.jpg" alt="Paisaje otoñal">
+                </div>
+                <div class="elemento-bloque">    
+                    <img src="https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1300/v1680133637/cwawljbkdlgrsgtfldz2.jpg" alt="paisaje de nieve">
+                </div>
+                <div class="elemento-bloque">    
+                    <img src="https://www.diariodesevilla.es/2020/03/17/sociedad/dia-comienza-primavera_1447065515_118626460_667x375.jpg" alt="Girasol">
+                </div>   
+            </div>
+            <nav class="contenedor-linea">
+                <a href="#" class="elemento-linea">Otoño</a>
+                <a href="#" class="elemento-linea">Invierno</a>
+                <a href="#" class="elemento-linea">Primavera</a>
+            </nav>      
+    </main>
+</body>
+</html>
